@@ -164,3 +164,52 @@ export const companyHighlights = [
   'Fire protection design, supply, and commissioning',
   'Compliance-led life safety solutions',
 ]
+
+export const heroSlides = [
+  {
+    type: 'image',
+    label: 'Fire Safety Systems',
+    title: 'Detection, suppression, and compliance for critical sites',
+    description:
+      'Integrated fire safety delivery for facilities that need dependable protection and ready-to-audit documentation.',
+    src: 'https://source.unsplash.com/1600x900/?fire-safety,extinguisher,industrial',
+    alt: 'Fire safety equipment and industrial protection context',
+  },
+  {
+    type: 'image',
+    label: 'Infrastructure Delivery',
+    title: 'Civil execution with disciplined project control',
+    description:
+      'From EPC coordination to finishing works, the workflow stays aligned with site safety and timely handover.',
+    src: 'https://source.unsplash.com/1600x900/?construction-site,engineer,industrial',
+    alt: 'Construction and engineering activity on a project site',
+  },
+  {
+    type: 'video',
+    label: 'Operational Readiness',
+    title: 'Real-time response training and on-site preparedness',
+    description:
+      'A motion-first slide that reinforces safety drills, response readiness, and day-to-day operational discipline.',
+    src: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4',
+    poster: 'https://source.unsplash.com/1600x900/?safety-training,team',
+    alt: 'Training and safety readiness video preview',
+  },
+]
+
+export const aboutVisuals = [
+  {
+    title: 'Fire protection',
+    src: 'https://source.unsplash.com/900x700/?fire-fighting,industrial',
+    alt: 'Fire protection and response equipment',
+  },
+  {
+    title: 'Project execution',
+    src: 'https://source.unsplash.com/900x700/?construction-engineering,site',
+    alt: 'Construction execution on an active site',
+  },
+  {
+    title: 'Safety compliance',
+    src: 'https://source.unsplash.com/900x700/?industrial-safety,audit',
+    alt: 'Industrial safety audit and compliance work',
+  },
+]

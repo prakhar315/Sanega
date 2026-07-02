@@ -3,13 +3,13 @@ import sanegaLogo from '../assets/sanegalogo.png'
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-900 py-10 text-slate-300">
+    <footer className="bg-[#07111e] py-10 text-slate-300">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-8 border-b border-white/10 pb-8 lg:flex-row lg:items-center lg:justify-between">
           <div className="max-w-xl">
             <div className="flex items-center gap-3 text-white">
-              <span className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-2xl bg-white ring-1 ring-white/10">
-                <img src={sanegaLogo} alt="SANEGAA logo" className="h-full w-full object-contain p-1" />
+              <span className="flex h-14 w-20 items-center justify-center overflow-hidden rounded-[1.25rem] bg-white ring-1 ring-white/10 sm:w-24">
+                <img src={sanegaLogo} alt="SANEGAA logo" className="h-full w-full object-contain p-1.5" />
               </span>
               <div>
                 <p className="text-sm font-semibold tracking-[0.22em]">SANEGAA</p>

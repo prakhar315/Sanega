@@ -3,7 +3,7 @@ import { valuePropositions } from '../data/siteData'
 
 export default function WhyChooseSection() {
   return (
-    <section id="why-choose-us" className="bg-slate-50 py-20 sm:py-24">
+    <section id="why-choose-us" className="bg-white py-14 sm:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Why Choose SANEGAA"
@@ -20,7 +20,7 @@ export default function WhyChooseSection() {
                 key={item.title}
                 className="rounded-[1.5rem] border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
               >
-                <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-orange-50 text-orange-600">
+                <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#f7eddb] text-[#9a6a10]">
                   <Icon className="h-5 w-5" />
                 </span>
                 <h3 className="mt-5 text-lg font-semibold text-slate-950">{item.title}</h3>

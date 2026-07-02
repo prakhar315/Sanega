@@ -5,7 +5,7 @@ export default function CorporateStructureSection() {
   const root = corporateStructure[0]
 
   return (
-    <section id="structure" className="bg-white py-20 sm:py-24">
+    <section id="structure" className="bg-white py-14 sm:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Corporate Structure"
@@ -16,7 +16,7 @@ export default function CorporateStructureSection() {
         <div className="mt-10 rounded-[2rem] border border-slate-200 bg-slate-950 p-8 text-white shadow-xl">
           <div className="mx-auto max-w-4xl">
             <div className="rounded-[1.75rem] border border-white/10 bg-white/5 p-6 text-center">
-              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-orange-300">Top Level</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#f1d08a]">Top Level</p>
               <h3 className="mt-3 text-2xl font-semibold">{root.title}</h3>
               <p className="mt-2 text-sm text-slate-300">{root.description}</p>
             </div>

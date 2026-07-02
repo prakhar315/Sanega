@@ -7,7 +7,7 @@ export default function DivisionsSection() {
   const currentDivision = divisions.find((division) => division.key === activeDivision) || divisions[0]
 
   return (
-    <section id="divisions" className="bg-white py-20 sm:py-24">
+    <section id="divisions" className="bg-white py-14 sm:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Core Offering"
@@ -28,20 +28,20 @@ export default function DivisionsSection() {
                   onClick={() => setActiveDivision(division.key)}
                   className={`w-full rounded-[1.75rem] border p-5 text-left transition ${
                     isActive
-                      ? 'border-orange-500 bg-slate-950 text-white shadow-lg shadow-slate-950/10'
-                      : 'border-slate-200 bg-slate-50 text-slate-950 hover:border-orange-300 hover:bg-orange-50'
+                      ? 'border-[#d7b46a] bg-[#08111e] text-white shadow-lg shadow-slate-950/10'
+                      : 'border-slate-200 bg-slate-50 text-slate-950 hover:border-[#d7b46a] hover:bg-[#fbf3e0]'
                   }`}
                 >
                   <div className="flex items-start gap-4">
                     <span
                       className={`flex h-12 w-12 items-center justify-center rounded-2xl ${
-                        isActive ? 'bg-orange-500 text-white' : 'bg-white text-orange-600'
+                        isActive ? 'bg-[#d7b46a] text-[#08111e]' : 'bg-white text-[#9a6a10]'
                       }`}
                     >
                       <Icon className="h-5 w-5" />
                     </span>
                     <div>
-                      <p className={`text-xs font-semibold uppercase tracking-[0.24em] ${isActive ? 'text-orange-300' : 'text-orange-600'}`}>
+                      <p className={`text-xs font-semibold uppercase tracking-[0.24em] ${isActive ? 'text-[#f1d08a]' : 'text-[#9a6a10]'}`}>
                         {division.eyebrow}
                       </p>
                       <h3 className="mt-2 text-xl font-semibold">{division.title}</h3>
@@ -56,7 +56,7 @@ export default function DivisionsSection() {
           </div>
 
           <article className="rounded-[2rem] border border-slate-200 bg-slate-50 p-8 shadow-sm">
-            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-orange-600">
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#9a6a10]">
               {currentDivision.eyebrow}
             </p>
             <h3 className="mt-3 text-2xl font-semibold text-slate-950">{currentDivision.title}</h3>

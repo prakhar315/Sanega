@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen bg-white text-slate-950 antialiased">
+    <div className="min-h-screen bg-[#fbf7f0] text-slate-950 antialiased">
       <Header />
       <main>
         <HeroSection />

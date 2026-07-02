@@ -22,7 +22,13 @@ html {
 
 body {
   margin: 0;
-  background: #ffffff;
+  background: #fbf7f0;
+  color: #0f172a;
+}
+
+::selection {
+  background: rgba(215, 180, 106, 0.35);
+  color: #08111e;
 }
 
 a {

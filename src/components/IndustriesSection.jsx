@@ -3,7 +3,7 @@ import { industries } from '../data/siteData'
 
 export default function IndustriesSection() {
   return (
-    <section id="industries" className="bg-white py-20 sm:py-24">
+    <section id="industries" className="bg-[#f8f3ea] py-14 sm:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Industries Served"
@@ -20,7 +20,7 @@ export default function IndustriesSection() {
                 key={industry.name}
                 className="flex items-center gap-4 rounded-[1.5rem] border border-slate-200 bg-slate-50 px-5 py-4"
               >
-                <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white text-orange-600 shadow-sm">
+                <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white text-[#9a6a10] shadow-sm">
                   <Icon className="h-5 w-5" />
                 </span>
                 <p className="text-sm font-medium text-slate-800">{industry.name}</p>

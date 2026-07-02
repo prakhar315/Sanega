@@ -8,13 +8,14 @@ export default function ContactSection() {
   )}`
 
   return (
-    <section id="contact" className="bg-slate-950 py-20 text-white sm:py-24">
+    <section id="contact" className="bg-[#08111e] py-14 text-white sm:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Contact Us"
           title="Start a conversation with SANEGAA"
           description="The fastest route is WhatsApp. For office details and location context, use the contact panel and map below."
           align="center"
+          tone="light"
         />
 
         <div className="mt-10 grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
@@ -23,7 +24,7 @@ export default function ContactSection() {
               href={whatsappHref}
               target="_blank"
               rel="noreferrer"
-              className="flex items-center justify-center gap-3 rounded-[1.5rem] bg-emerald-500 px-6 py-5 text-lg font-semibold text-white shadow-lg shadow-emerald-500/20 transition hover:bg-emerald-400"
+              className="flex items-center justify-center gap-3 rounded-[1.5rem] bg-[#d7b46a] px-6 py-5 text-lg font-semibold text-[#08111e] shadow-lg shadow-[#d7b46a]/20 transition hover:bg-[#f1d08a]"
             >
               <MessageCircleMore className="h-5 w-5" />
               Chat on WhatsApp
@@ -32,7 +33,7 @@ export default function ContactSection() {
             <div className="mt-8 grid gap-4">
               <div className="rounded-2xl border border-white/10 bg-slate-900/70 p-5">
                 <div className="flex items-start gap-3">
-                  <MapPinned className="mt-1 h-5 w-5 text-orange-400" />
+                  <MapPinned className="mt-1 h-5 w-5 text-[#f1d08a]" />
                   <div>
                     <p className="text-sm font-semibold text-white">Office Address</p>
                     <p className="mt-1 text-sm leading-6 text-slate-300">{contactDetails.address}</p>
@@ -43,7 +44,7 @@ export default function ContactSection() {
               <div className="grid gap-4 sm:grid-cols-2">
                 <div className="rounded-2xl border border-white/10 bg-slate-900/70 p-5">
                   <div className="flex items-start gap-3">
-                    <Mail className="mt-1 h-5 w-5 text-orange-400" />
+                    <Mail className="mt-1 h-5 w-5 text-[#f1d08a]" />
                     <div>
                       <p className="text-sm font-semibold text-white">Email</p>
                       <p className=" text-sm text-slate-300">{contactDetails.email}</p>
@@ -52,7 +53,7 @@ export default function ContactSection() {
                 </div>
                 <div className="rounded-2xl border border-white/10 bg-slate-900/70 p-5">
                   <div className="flex items-start gap-3">
-                    <Clock3 className="mt-1 h-5 w-5 text-orange-400" />
+                    <Clock3 className="mt-1 h-5 w-5 text-[#f1d08a]" />
                     <div>
                       <p className="text-sm font-semibold text-white">Working Hours</p>
                       <p className="mt-1 text-sm text-slate-300">{contactDetails.workingHours}</p>
@@ -68,7 +69,7 @@ export default function ContactSection() {
                 className="rounded-2xl border border-white/10 bg-slate-900/70 p-5 transition hover:bg-slate-800"
               >
                 <div className="flex items-start gap-3">
-                  <PhoneCall className="mt-1 h-5 w-5 text-orange-400" />
+                    <PhoneCall className="mt-1 h-5 w-5 text-[#f1d08a]" />
                   <div>
                     <p className="text-sm font-semibold text-white">Open Office Location</p>
                     <p className="mt-1 text-sm text-slate-300">Google Maps location link</p>
