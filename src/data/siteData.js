@@ -150,7 +150,7 @@ export const corporateStructure = [
 ]
 
 export const contactDetails = {
-  phoneNumber: '9415388232',
+  phoneNumber: '7052221111',
   whatsappText: 'Hi SANEGAA Team, I am interested in your services.',
   email: 'sanegainfrasafety@gmail.com',
   address: 'Shop No- 2, 1st Floor, Vikashdeep, Lucknow',
